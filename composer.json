@@ -1,0 +1,20 @@
+{
+    "name": "abautu/local_cron_sql_queries",
+    "description": "A local Moodle plugin that runs custom SQL queries during cron.",
+    "type": "moodle-local",
+    "version": "2024051700",
+    "require": {
+        "composer/installers": "~1.0",
+        "moodle/moodle": "v3.* || v4.*"
+    },
+    "extra": {
+        "installer-name": "cron_sql_queries"
+    },
+    "license": "GNU GPL v3 or later",
+    "authors": [
+        {
+            "name": "Andrei Bautu",
+            "email": "abautu@gmail.com"
+        }
+    ]
+}
