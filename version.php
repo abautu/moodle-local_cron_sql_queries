@@ -27,6 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_cron_sql_queries';
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->version   = 2024051700;
+$plugin->version   = 2025071800;
 $plugin->release   = $plugin->version;
 $plugin->requires  = 2020061525;
